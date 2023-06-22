@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    right: 0;
+    text-align: right;
+}
+
+.sidebar .div {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar div.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.sidebar div:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.row {
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    margin-top: 0.2cm;
+    margin-bottom: 0;
+    overflow: auto;
+    border: inset black 2mm;
+    border-radius: 24px;
+    font-size: large;
+    text-align: center;
+}
+
+.main-page {
+    margin-right: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+.banner_section {
+    background-color: #f1ffe9;
+    text-align: center;
+    font-size-adjust: calc(1);
+    padding-left: 18.5cm;
+    padding-right: 18.7cm;
+    position: fixed;
+    border: 1rem solid #c3c3c3;
+    border-radius: 10%;
+
+}
+.first-sheet {
+    text-align: center;
+    background-color: rgb(237, 233, 214);
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    margin-top: 2cm;
+}
+.photo1 {
+    width: 10cm;
+    height: 14cm;
+}
+.photo2 {
+    width: 10cm;
+    height: 14cm;
+}
+.photo3 {
+    width: 10cm;
+    height: 14cm;
+}
+.photo-on {
+    width: 12cm;
+    height: 16cm;
+}
+.photo-out {
+    width: 10cm;
+    height: 14cm;
+}
+
+.second-sheet {
+    background-color: #cae8e7;
+    text-align: right;
+    border: solid #349875;
+    padding: 0.5cm;
+}
+
+.third-sheet {
+    text-align: center;
+}
+
+.first-page {
+    text-align: center;
+    padding-top: 1cm;
+}
+
+.rowinline {
+    display: inline;
+}
+
+.phototext {
+    text-align: center;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    padding-top: 0.5cm;
+    border: solid #3b9b98;
+    background-color: #cae8e7;
+}
+
+.first-photo1 {
+    width: 10cm;
+    height: 12cm;
+    padding: 0.5cm;
+}
+
+.first-photo2 {
+    width: 10cm;
+    height: 12cm;
+    padding: 0.5cm;
+}
+
+.first-photo3 {
+    width: 10cm;
+    height: 12cm;
+    padding: 0.5cm;
+}
+
+.first-photo4 {
+    width: 10cm;
+    height: 12cm;
+    padding: 0.5cm;
+}
+
+.first-photo5 {
+    width: 10cm;
+    height: 12cm;
+    padding: 0.5cm;
+}
+
+.first-photo6 {
+    width: 10cm;
+    height: 12cm;
+    padding: 0.5cm;
+}
+
+.first-photo7 {
+    width: 10cm;
+    height: 12cm;
+    padding: 0.5cm;
+}
+.first-photo8 {
+    width: 10cm;
+    height: 12cm;
+    padding: 0.5cm;
+}
+.first-photo9 {
+    width: 10cm;
+    height: 12cm;
+    padding: 0.5cm;
+}
+
+.note {
+    margin-right: 30cm;
+}
